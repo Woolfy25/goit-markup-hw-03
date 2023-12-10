@@ -245,3 +245,12 @@ body {
 .phone-email:hover .phone-email:focus {
   background-color: var(--button-hover-color);
 }
+
+.header {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
