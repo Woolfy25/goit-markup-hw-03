@@ -82,6 +82,8 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-second-word {
@@ -194,7 +196,7 @@ img {
   letter-spacing: 0.4px;
   color: var(--text-color-navy);
   width: calc((100% - 72px) / 4);
-  in-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .feature-content {
@@ -202,6 +204,10 @@ img {
   line-height: 150%;
   letter-spacing: 0.32px;
   color: var(--text-color-slate);
+}
+
+.section-2 {
+  padding-bottom: 120px;
 }
 
 .what-we-do-title {
@@ -212,6 +218,16 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--text-color-navy);
+  margin-bottom: 72px;
+}
+
+.section-2-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-2-images {
+  width: calc((100% - 48px) / 3);
 }
 
 .section-three {
@@ -249,6 +265,7 @@ img {
 
 .foooter-bg {
   background-color: var(--background-color);
+  padding: 100px 0;
 }
 
 .footer-text {
@@ -256,6 +273,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--text-color-cloud);
+  max-width: 264px;
 }
 
 .footer-text-portfolio {
