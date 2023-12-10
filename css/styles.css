@@ -1,0 +1,247 @@
+:root {
+  --main-color-white: white;
+  --text-color-navy: #2e2f42;
+  --text-color-slate: #434455;
+  --text-color-cloud: #f4f4fd;
+  --text-color-logo: #4d5ae5;
+  --background-color: #2e2f42;
+  --button-hover-color: #404bbf;
+  --logo-font-family: "Raleway", sans-serif;
+  --text-font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--text-font-family);
+  background-color: var(--main-color-white);
+  color: var(--text-color-slate);
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--list-color);
+}
+
+.link:hover {
+  color: #404bbf;
+}
+.link:focus {
+  color: #404bbf;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-link {
+  color: var(--text-color-navy);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.nav-link:hover .nav-link:focus {
+  color: var(--button-hover-color);
+}
+
+.logo-link {
+  color: var(--text-color-logo);
+  font-family: var(--logo-font-family);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-second-word {
+  color: var(--text-color-navy);
+}
+
+.address {
+  color: var(--text-color-slate);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.address:hover .address:focus {
+  color: var(--text-color-cloud);
+}
+
+.hero-page {
+  background-color: var(--text-color-navy);
+}
+
+.page-title {
+  color: var(--main-color-white);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 107.143%;
+  letter-spacing: 1.12px;
+}
+
+.order-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.order-button:hover {
+  background-color: #404bbf;
+}
+.order-button:focus {
+  background-color: #404bbf;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #404bbf;
+  color: #ffffffff;
+}
+.button:focus {
+  background-color: #404bbf;
+  color: #ffffffff;
+}
+
+.feature-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+  color: var(--text-color-navy);
+}
+
+.feature-content {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  color: var(--text-color-slate);
+}
+
+.what-we-do-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 111.111%;
+  letter-spacing: 0.72px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--text-color-navy);
+}
+
+.section-three {
+  background-color: var(--text-color-cloud);
+}
+
+.our-team {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 111.111%;
+  letter-spacing: 0.72px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--text-color-navy);
+}
+
+.names {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+  color: var(--text-color-navy);
+}
+
+.specialization {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color-slate);
+}
+
+.list-employees {
+  background-color: var(--main-color-white);
+}
+
+.foooter-bg {
+  background-color: var(--background-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text-color-cloud);
+}
+
+.footer-text-portfolio {
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.32px;
+  color: var(--text-color-cloud);
+}
+
+.logo-second-word-footer {
+  color: var(--text-color-cloud);
+}
+
+.button-filter {
+  font-family: var(--text-font-family);
+  color: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.64px;
+  background-color: var(--text-color-cloud);
+  cursor: pointer;
+}
+
+.button-filter:hover .button-filter:focus {
+  color: #ffffffff;
+  background-color: #404bbf;
+}
+
+.projects-name {
+  color: var(--text-color-navy);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.projects-description {
+  color: var(--text-color-slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.phone-email {
+  color: var(--text-color-slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.phone-email:hover .phone-email:focus {
+  background-color: var(--button-hover-color);
+}
