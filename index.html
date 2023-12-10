@@ -5,13 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
 
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -19,37 +12,46 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
       <!-- Navigation -->
-      <nav>
-        <a href="./index.html" class="logo-link link">
-          Web<span class="logo-second-word">Studio</span></a
-        >
-        <ul class="list">
-          <li><a href="./index.html" class="nav-link link">Studio</a></li>
-          <li>
-            <a href="./portfolio.html" class="nav-link link">Portfolio</a>
-          </li>
-          <li><a href="" class="nav-link link">Contacts</a></li>
-        </ul>
-      </nav>
-      <!-- Contact-Informations -->
-      <address class="address list">
-        <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="phone-email link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="phone-email link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="header-div container">
+        <nav class="nav">
+          <a href="./index.html" class="logo-link link">
+            Web<span class="logo-second-word">Studio</span></a
+          >
+          <ul class="list nav-menu">
+            <li><a href="./index.html" class="nav-link link">Studio</a></li>
+            <li>
+              <a href="./portfolio.html" class="nav-link link">Portfolio</a>
+            </li>
+            <li><a href="" class="nav-link link">Contacts</a></li>
+          </ul>
+        </nav>
+        <!-- Contact-Informations -->
+        <address class="address list">
+          <ul class="list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="phone-email link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="phone-email link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- Hero-Page -->

@@ -35,16 +35,42 @@ body {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .nav-link {
   color: var(--text-color-navy);
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 .nav-link:hover .nav-link:focus {
   color: var(--button-hover-color);
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
 }
 
 .logo-link {
@@ -55,6 +81,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-second-word {
@@ -67,6 +94,8 @@ body {
   font-style: normal;
   line-height: 150%;
   letter-spacing: 0.32px;
+  display: flex;
+  gap: 40px;
 }
 
 .address:hover .address:focus {
@@ -244,13 +273,4 @@ body {
 
 .phone-email:hover .phone-email:focus {
   background-color: var(--button-hover-color);
-}
-
-.header {
-  display: flex;
-  width: 1440px;
-  height: 72px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
 }
