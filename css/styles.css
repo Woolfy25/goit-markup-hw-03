@@ -207,13 +207,13 @@ img {
 }
 
 .section-one-list {
-  width: 1440px;
   display: flex;
-  gap: 24px;
 }
 
 .section-one-list-child {
+  width: 100%;
   min-width: 264px;
+  gap: 24px;
 }
 
 .feature-title {
