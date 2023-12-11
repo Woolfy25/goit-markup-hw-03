@@ -206,6 +206,9 @@ img {
   overflow: hidden;
 }
 
+.section-one-div {
+  width: 100%;
+}
 .section-one-list {
   display: flex;
   gap: 24px;
