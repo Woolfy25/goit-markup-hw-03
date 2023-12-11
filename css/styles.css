@@ -212,7 +212,7 @@ img {
 }
 
 .section-one-list-child {
-  width: calc((100%-72px) / 4);
+  width: 264px;
   max-width: 264px;
 }
 
