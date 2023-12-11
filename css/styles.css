@@ -208,12 +208,12 @@ img {
 
 .section-one-list {
   display: flex;
+  gap: 24px;
 }
 
 .section-one-list-child {
   width: 100%;
   min-width: 264px;
-  gap: 24px;
 }
 
 .feature-title {
@@ -230,7 +230,7 @@ img {
   line-height: 150%;
   letter-spacing: 0.32px;
   color: var(--text-color-slate);
-  text-align: center;
+  /* text-align: center; */
 }
 
 .section-two {
