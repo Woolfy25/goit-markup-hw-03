@@ -221,7 +221,8 @@ img {
 }
 
 .section-one-list-child {
-  width: calc((100% - 72px) / 4);
+  width: 100%;
+  min-width: 264px;
 }
 
 .feature-title {
