@@ -209,12 +209,11 @@ img {
 .section-one-list {
   display: flex;
   gap: 24px;
-  width: 264px;
 }
 
 .section-one-list-child {
   width: 264px;
-  max-width: 264px;
+  width: 100%;
 }
 
 .feature-title {
