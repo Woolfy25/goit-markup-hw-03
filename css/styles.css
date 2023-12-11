@@ -212,6 +212,7 @@ img {
 }
 
 .section-one-list-child {
+  gap: 24px;
   width: 100%;
   min-width: 264px;
 }
@@ -225,12 +226,19 @@ img {
   margin-bottom: 8px;
 }
 
+.feature-content-section-two {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  color: var(--text-color-slate);
+}
+
 .feature-content {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.32px;
   color: var(--text-color-slate);
-  /* text-align: center; */
+  text-align: center;
 }
 
 .section-two {
